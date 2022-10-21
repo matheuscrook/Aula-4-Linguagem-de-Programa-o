@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+
+var valor, valortaxa, valorfinal, percentToGet
+
+var valor = Number(prompt("Digite o valor a ser pago pelo jantar: "));
+var percentToGet = 10;
+var valortaxa = (percentToGet / 100) * valor;
+var valorfinal = valor+valortaxa;
+
+alert("O valor da taxa do garçom é: " + "R$" + valortaxa);
+alert("E o valor final com a taxa é: " + "R$" + valorfinal.toFixed(2));
+
+</script>
+
+
+
+</body>
+</html>

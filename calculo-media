@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<! - - Interface - - >
+<h2> Colégio Santo Inácio </h2>
+
+<script>
+//Variáveis
+var nome, nota1, nota2, somanotas, media
+
+//Entrada de dados
+var nome = prompt("Nome do aluno: ");
+var nota1 = Number(prompt("Digite a nota da primeira prova: "));
+var nota2 = Number(prompt("Digite a nota da segunda prova: "));
+
+//Calculo de dados
+var media = (nota1+nota2)/2
+
+//Resultado - Saída de dados
+document.write("Nome: " + nome);
+document.write("<br>Sua nota é: " + media.toFixed(1));
+
+
+</script>
+</body>
+

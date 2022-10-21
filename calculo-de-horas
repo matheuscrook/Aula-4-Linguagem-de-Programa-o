@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1> Calculo de Horas </h1>
+
+<script>
+
+var dias, horas, horasfinal
+
+var dias = Number(prompt("Digite a quantidade de dias: "));
+var horas = Number(prompt("Digite a quantidade de horas: ")); 
+var horasfinal = (dias * 24) + horas;
+
+document.write("<br>Dias: " + dias);
+document.write("<br>Horas: " + horas);
+document.write("<br><br>São " + horasfinal + " horas de viagem.");
+
+
+</script>
+
+
+
+
+
+</body>
+
+</html>

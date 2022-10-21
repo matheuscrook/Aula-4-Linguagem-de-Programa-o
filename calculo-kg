@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<h2> Padaria </h2>
+
+<script>
+
+var precokg, precograma, consumo, precoconsumo
+
+var precokg = Number(prompt("Digite o preço do kg: "));
+var consumo = prompt("Digite o seu consumo em gramas: ");
+var precograma = precokg/1000
+var precoconsumo = precograma*consumo
+
+
+document.write("Preço do KG do Pão: " + "R$" + precokg);
+document.write("<br>O valor do seu consumo é de: " + "R$" + precoconsumo.toFixed(2)); 
+
+</script>
+
+</body>
+</html> 

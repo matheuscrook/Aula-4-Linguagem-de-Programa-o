@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+//Entrada de Dados
+var valortotal, clientes, valorcliente;
+
+//Processamento de dados
+var valortotal = Number(prompt("Digite o valor total da conta: "));
+var clientes = prompt("Digite a quantidade de clientes a pagar: ");
+var valorcliente = valortotal/clientes;
+
+//Saida de Dados
+alert("O valor total divido para cada cliente é: " + "R$" + valorcliente.toFixed(2));
+
+//Eu fiz esse com alert, pra variar um pouco.
+</script>
+
+
+
+</body>
+</html>
